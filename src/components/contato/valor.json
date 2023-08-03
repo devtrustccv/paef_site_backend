@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_contato_valors",
+  "info": {
+    "displayName": "valor"
+  },
+  "options": {},
+  "attributes": {
+    "valor": {
+      "type": "string"
+    }
+  }
+}

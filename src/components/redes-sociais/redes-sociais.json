@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_redes_sociais_redes_sociais",
+  "info": {
+    "displayName": "redes sociais",
+    "icon": "oneToMany"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
