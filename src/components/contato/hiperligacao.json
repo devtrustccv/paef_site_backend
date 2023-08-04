@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contato_hiperligacaos",
+  "info": {
+    "displayName": "hiperligacao"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

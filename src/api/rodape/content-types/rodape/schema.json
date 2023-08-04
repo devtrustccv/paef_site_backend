@@ -47,7 +47,22 @@
           "localized": true
         }
       },
-      "component": "redes-sociais.redes-sociais"
+      "component": "contato.redes-sociais"
+    },
+    "site": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "contato.hiperligacao"
+    },
+    "servicos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::servico.servico"
     }
   }
 }

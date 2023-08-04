@@ -1,9 +1,21 @@
 {
   "collectionName": "components_contato_valors",
   "info": {
-    "displayName": "valor",
+    "displayName": "contatos",
     "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "endereco": {
+      "type": "text"
+    },
+    "telefone": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contato.telefone"
+    }
+  }
 }
