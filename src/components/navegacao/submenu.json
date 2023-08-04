@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_navegacao_submenus",
+  "info": {
+    "displayName": "submenu"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "route": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::route.route"
+    }
+  }
+}

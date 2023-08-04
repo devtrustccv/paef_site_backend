@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_navegacao_menus",
+  "info": {
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "route": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::route.route"
+    },
+    "submenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navegacao.submenu"
+    }
+  }
+}
